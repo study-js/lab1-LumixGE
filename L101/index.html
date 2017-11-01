@@ -5,11 +5,31 @@
     <title>Lab 1/1</title>
     <link rel="stylesheet" href="style.css">
     <script src="/path/to/script.js"></script>
+    <script src="async.js"async></script>
+    <script src="defer.js"defer></script>    
   </head>
   <body>
     <script>
         alert('js უფრო რთულ რაღაცეებზე გადასვლის დროა!');
     </script>
+    <p>დათვლის დაწყება:</p>
     
+    <script>
+    alert('პირველისტუდენტი!');
+    alert('მეორესტუდენტი!');
+    alert('მესამე სტუდენტი!');
+    </script>
+    
+    <p>ყველა სტუდენტი დათვლილია!</p><!--ეს ტექსტი არ გამოჩნდება სანამ ყველა alert არშესრულდება-->
+    
+    <script> 
+var admin,name;
+name = 'daviti';
+admin = name;
+alert(admin);
+alert(name);
+    </script>
+
+
   </body>
 </html>
