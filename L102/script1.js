@@ -1,1 +1,3 @@
-alert ('Shota Tkhilishvili');
+alert ('პირველი სტუდენტი');
+alert ('მეორე სტუდენტი');
+alert ('მესამე სტუდენტი');
